@@ -62,4 +62,13 @@ describe('busRoute', () => {
     expect(testBus.getTotalPassengers()).toBe(0);
   });
 
+  test('A person should have a name', () => {
+    expect(alice.name).toBe("Alice");
+  });
+
+  test('A person should have an age', () => {
+    expect(bob.age).toBe(37);
+  });
+
+
 });
